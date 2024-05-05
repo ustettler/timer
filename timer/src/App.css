@@ -5,6 +5,12 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
+  background-color: white; /* Standard-Hintergrundfarbe */
+  transition: background-color 0.5s ease; /* Füge eine sanfte Übergangseffekt für den Hintergrund hinzu */
+}
+
+.countdown-finished .app {
+  background-color: red; /* Hintergrund wird rot, wenn der Countdown abgelaufen ist */
 }
 
 .timer {
